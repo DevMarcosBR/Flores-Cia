@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flores & Cia · Floricultura Artesanal</title>
+<meta name="description" content="Buquês e arranjos feitos à mão com flores frescas. Design moderno e natural.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'></text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="index.html" class="logo">Flores <span>& Cia</span></a>
+    <nav class="nav-links">
+      <a href="index.html" class="ativo">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a href="contato.html" class="btn btn-sage btn-sm desktop">Encomendar</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+<nav class="menu-mobile">
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="contato.html">Contato</a>
+  <a href="contato.html" class="btn btn-sage" style="text-align:center">Encomendar</a>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="tag">Floricultura Moderna</span>
+        <h1>Flores que inspiram <em>emoções</em></h1>
+        <p>Arranjos contemporâneos feitos com flores frescas e muito cuidado. Design natural para momentos especiais.</p>
+        <div class="hero-btns">
+          <a href="produtos.html" class="btn btn-sage">Explorar coleção</a>
+          <a href="https://wa.me/5514999999999?text=Olá!%20Quero%20conhecer%20nossos%20produtos." target="_blank" class="btn btn-outline">WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://picsum.photos/seed/flores-modernas-900/900/500" alt="Arranjo floral moderno">
+        <div class="hero-badge">✨ Entrega no mesmo dia</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Coleção</span>
+        <h2>Destaques da semana</h2>
+        <p>Peças selecionadas que combinam elegância e naturalidade</p>
+      </div>
+      <div class="produtos-grid">
+        <div class="produto">
+          <div class="produto-img">
+            <span class="produto-cat">Rosas</span>
+            <img src="https://picsum.photos/seed/rosas-minimal-400/400/400" alt="Rosas Brancas">
+          </div>
+          <div class="produto-info">
+            <h3>Rosas Brancas</h3>
+            <p>12 rosas brancas importadas com folhagem minimalista.</p>
+            <div class="produto-foot"><strong>R$ 199</strong><a href="produtos.html">Ver →</a></div>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-img">
+            <span class="produto-cat">Arranjos</span>
+            <img src="https://picsum.photos/seed/arranjo-moderno-400/400/400" alt="Arranjo Contemporâneo">
+          </div>
+          <div class="produto-info">
+            <h3>Arranjo Contemporâneo</h3>
+            <p>Composição moderna com flores da estação e eucalipto.</p>
+            <div class="produto-foot"><strong>R$ 189</strong><a href="produtos.html">Ver →</a></div>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-img">
+            <span class="produto-cat">Plantas</span>
+            <img src="https://picsum.photos/seed/planta-moderna-400/400/400" alt="Costela de Adão">
+          </div>
+          <div class="produto-info">
+            <h3>Costela de Adão</h3>
+            <p>Planta tropical em vaso de cerâmica artesanal.</p>
+            <div class="produto-foot"><strong>R$ 135</strong><a href="produtos.html">Ver →</a></div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:3rem">
+        <a href="produtos.html" class="btn btn-outline">Ver coleção completa</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-bg" id="sobre">
+    <div class="container sobre-layout">
+      <div class="sobre-img">
+        <img src="https://picsum.photos/seed/atelier-moderno-600/600/500" alt="Atelier">
+      </div>
+      <div class="sobre-content">
+        <span class="tag" style="display:block;font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--sage);margin-bottom:1rem;font-weight:600">Sobre nós</span>
+        <h2>Design floral com propósito</h2>
+        <p>Somos uma floricultura que une <strong>arte e natureza</strong>. Cada arranjo é pensado como uma obra única, combinando cores, texturas e formas de maneira harmônica.</p>
+        <p>Trabalhamos com flores frescas colhidas no dia, sempre buscando fornecedores locais e práticas sustentáveis. Nosso objetivo é criar peças que tragam beleza e bem-estar para seu espaço.</p>
+        <div class="stats">
+          <div class="stat"><strong>15+</strong><span>Anos de experiência</span></div>
+          <div class="stat"><strong>3k+</strong><span>Arranjos entregues</span></div>
+          <div class="stat"><strong>100%</strong><span>Flores frescas</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-banner">
+        <h2>Pronta para presentear?</h2>
+        <p>Flores frescas, design exclusivo e entrega no mesmo dia. Faça sua encomenda agora.</p>
+        <a href="https://wa.me/5514999999999?text=Olá!%20Quero%20fazer%20uma%20encomenda." target="_blank" class="btn btn-sage">💬 Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Flores <span>& Cia</span></a>
+        <p>Floricultura artesanal com design contemporâneo. Flores frescas, arranjos únicos e muito carinho em cada detalhe.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="https://wa.me/5514999999999" target="_blank" aria-label="WhatsApp">WA</a>
+          <a href="#" aria-label="Facebook">FB</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <div class="footer-links">
+          <a href="index.html">Início</a>
+          <a href="produtos.html">Produtos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <div class="footer-links">
+          <a href="produtos.html">Rosas</a>
+          <a href="produtos.html">Arranjos</a>
+          <a href="produtos.html">Plantas</a>
+          <a href="produtos.html">Buquês</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <div class="footer-links">
+          <a href="tel:+551434567890">(14) 3456-7890</a>
+          <a href="https://wa.me/5514999999999" target="_blank">(14) 99999-9999</a>
+          <a href="mailto:contato@florese cia.com">contato@florese cia.com</a>
+          <span style="color:rgba(255,255,255,0.5);font-size:.85rem">Rua das Flores, 123 · Centro<br>Seg a Sáb · 8h às 19h</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Flores & Cia · Todos os direitos reservados</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

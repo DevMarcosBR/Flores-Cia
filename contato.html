@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato · Flores & Cia</title>
+<meta name="description" content="Fale com a Flores & Cia. Encomende pelo WhatsApp ou visite nosso atelier.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="index.html" class="logo">Flores <span>& Cia</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html" class="ativo">Contato</a>
+      <a href="contato.html" class="btn btn-sage btn-sm desktop">Encomendar</a>
+    </nav>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+<nav class="menu-mobile">
+  <a href="index.html">Início</a>
+  <a href="produtos.html">Produtos</a>
+  <a href="sobre.html">Sobre</a>
+  <a href="contato.html">Contato</a>
+  <a href="contato.html" class="btn btn-sage" style="text-align:center">Encomendar</a>
+</nav>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="tag">Fale Conosco</span>
+      <h1>Vamos criar algo <em>bonito</em> juntos?</h1>
+      <p>Estamos prontos para atender você. Escolha o canal de sua preferência ou passe no nosso atelier.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contato-layout">
+      <div class="contato-info">
+        <h2>Informações de contato</h2>
+        <p>Respondemos rapidamente pelo WhatsApp. Para orçamentos de eventos, preferimos um contato mais detalhado.</p>
+        
+        <a href="https://wa.me/5514999999999?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="contato-item">
+          <span class="ico">💬</span>
+          <div>
+            <small>WhatsApp</small>
+            <strong>(14) 99999-9999</strong>
+          </div>
+        </a>
+        
+        <a href="tel:+551434567890" class="contato-item">
+          <span class="ico">📞</span>
+          <div>
+            <small>Telefone Fixo</small>
+            <strong>(14) 3456-7890</strong>
+          </div>
+        </a>
+        
+        <a href="mailto:contato@florese cia.com" class="contato-item">
+          <span class="ico">✉️</span>
+          <div>
+            <small>E-mail</small>
+            <strong>contato@florese cia.com</strong>
+          </div>
+        </a>
+        
+        <div class="contato-item">
+          <span class="ico">🕐</span>
+          <div>
+            <small>Horário de Atendimento</small>
+            <strong>Seg a Sáb · 8h às 19h</strong>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" id="form-encomenda">
+        <h3>Envie sua mensagem</h3>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="nome">Seu nome</label>
+            <input type="text" id="nome" required placeholder="Como podemos te chamar?">
+          </div>
+          <div class="form-field">
+            <label for="telefone">WhatsApp</label>
+            <input type="tel" id="telefone" required placeholder="(14) 99999-9999">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field full">
+            <label for="produto">Interesse</label>
+            <select id="produto">
+              <option>Arranjo personalizado</option>
+              <option>Buquê para presente</option>
+              <option>Decoração para evento</option>
+              <option>Assinatura de flores</option>
+              <option>Outros assuntos</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field full">
+            <label for="mensagem">Sua mensagem</label>
+            <textarea id="mensagem" placeholder="Conte um pouco sobre o que você precisa..."></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-sage">💬 Enviar via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="mapa-section">
+    <div class="container mapa-layout">
+      <div>
+        <span class="tag" style="display:block;font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;color:var(--sage);margin-bottom:1rem;font-weight:600">Localização</span>
+        <h2>Visite nosso atelier</h2>
+        <p>Estamos no coração da cidade, com fácil acesso e estacionamento gratuito na porta. Venha sentir o aroma das flores frescas!</p>
+        
+        <div class="contato-item">
+          <span class="ico">📍</span>
+          <div>
+            <small>Endereço</small>
+            <strong>Rua das Flores, 123 · Centro</strong>
+          </div>
+        </div>
+        <div class="contato-item">
+          <span class="ico">🅿️</span>
+          <div>
+            <small>Estacionamento</small>
+            <strong>Gratuito para clientes</strong>
+          </div>
+        </div>
+      </div>
+      <div class="mapa-frame">
+        <!-- Substitua o src abaixo pelo embed real do Google Maps da sua cidade -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0!2d-46.65!3d-23.55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAwLjAiUyA0NsKwMzknMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Flores <span>& Cia</span></a>
+        <p>Floricultura artesanal com design contemporâneo. Flores frescas, arranjos únicos e muito carinho em cada detalhe.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="https://wa.me/5514999999999" target="_blank" aria-label="WhatsApp">WA</a>
+          <a href="#" aria-label="Facebook">FB</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <div class="footer-links">
+          <a href="index.html">Início</a>
+          <a href="produtos.html">Produtos</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <div class="footer-links">
+          <a href="produtos.html">Rosas</a>
+          <a href="produtos.html">Arranjos</a>
+          <a href="produtos.html">Plantas</a>
+          <a href="produtos.html">Buquês</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <div class="footer-links">
+          <a href="tel:+551434567890">(14) 3456-7890</a>
+          <a href="https://wa.me/5514999999999" target="_blank">(14) 99999-9999</a>
+          <a href="mailto:contato@florese cia.com">contato@florese cia.com</a>
+          <span style="color:rgba(255,255,255,0.5);font-size:.85rem">Rua das Flores, 123 · Centro<br>Seg a Sáb · 8h às 19h</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Flores & Cia · Todos os direitos reservados</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
